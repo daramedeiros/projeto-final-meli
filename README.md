@@ -6,51 +6,44 @@ Está aplicação é uma API que busca conectar  mulheres que sofrem ou sofreram
 
 # Rotas/EndPoints
 
-GET /postosDeSevicosDeAtendimento
-Rota que retorna uma lista com todos os postos de serviços de atendimentos cadastrados.
+GET /postosDeSevicosDeAtendimento <br/>
+Rota que retorna uma lista com todos os postos de serviços de atendimentos cadastrados.<br/>
 HTTP 200 OK
 
-GET/postosDeSevicosDeAtendimento/:id
-Rota que retorna os detalhes sobre algum posto de serviço, baseado no seu id.
+GET/postosDeSevicosDeAtendimento/:id <br/>
+Rota que retorna os detalhes sobre algum posto de serviço, baseado no seu id.<br/>
 HTTP 200 OK
 
-GET/voluntarioAcolhe
-Rota que retorna uma lista com todas as profissionais (terapeutas  e advogadas) cadastradas para prestar seu serviço voluntariamente.
+GET/voluntarioAcolhe <br/>
+Rota que retorna uma lista com todas as profissionais (terapeutas  e advogadas) cadastradas para prestar seu serviço voluntariamente. <br/>
 HTTP 200 OK
 
-GET/voluntarioAcolhe/:id
-Rota que retorna os detalhes sobre cada profissional cadastrada, com base no seu id.
+GET/voluntarioAcolhe/:id <br/>
+Rota que retorna os detalhes sobre cada profissional cadastrada, com base no seu id. <br/>
 HTTP 200 OK
 
-POST /postosDeSevicosDeAtendimento
-Rota que recebe e adiciona um novo posto de serviço de atendimento, retorna o item criado.
+POST /postosDeSevicosDeAtendimento <br/>
+Rota que recebe e adiciona um novo posto de serviço de atendimento, retorna o item criado. <br/>
 HTTP 201 CREATED
 
-POST /voluntarioAcolhe
-Rota que recebe e adiciona um novo profissional. Como resultado, retorna o item criado. 
+POST /voluntarioAcolhe <br/>
+Rota que recebe e adiciona um novo profissional. Como resultado, retorna o item criado. <br/>
 HTTP 201 CREATED
 
-PUT /postosDeSevicosDeAtendimento/:id
-Rota que atualiza as informações de um certo posto de serviço por id e retorna o item atualizado
+PUT /postosDeSevicosDeAtendimento/:id <br/>
+Rota que atualiza as informações de um certo posto de serviço por id e retorna o item atualizado. <br/>
 HTTP 200 OK
 
-PUT /terapeutas/:id
-Rota que atualiza as informações de um profissional por id e retorna o item atualizado
+PUT /voluntarioAcolhe/:id <br/>
+Rota que atualiza as informações de um voluntário por id e retorna o item atualizado <br/>
 HTTP 200 OK
 
-PUT /voluntarioAcolhe
-Rota que recebe e adiciona um novo profissional. Como resultado, retorna o item criado. 
-HTTP 201 CREATED
-/:id
-Rota que atualiza as informações de uma advogada por id e retorna o item atualizado
-HTTP 200 OK
-
-DELETE /postosDeSevicosDeAtendimento/:id
-Rota que deleta um posto de serviço baseado em seu id.
+DELETE /postosDeSevicosDeAtendimento/:id <br/>
+Rota que deleta um posto de serviço baseado em seu id. <br/>
 HTTP 204 NO CONTENT
 
-DELETE /voluntarioAcolhe/:id
-Rota que deleta um profissional baseado em seu id.
+DELETE /voluntarioAcolhe/:id <br/>
+Rota que deleta um profissional baseado em seu id. <br/>
 HTTP 204 NO CONTENT
 
 
