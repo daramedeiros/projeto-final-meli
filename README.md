@@ -58,6 +58,10 @@ DELETE /postosDeSevicosDeAtendimento/:id <br/>
 Rota que deleta um posto de serviço baseado em seu id. <br/>
 HTTP 204 NO CONTENT
 
+DELETE /queroSerAcolhida/:id <br/>
+Rota que deleta uma vítima baseado em seu id. <br/>
+HTTP 204 NO CONTENT
+
 DELETE /voluntarioAcolhe/:id <br/>
 Rota que deleta um profissional baseado em seu id. <br/>
 HTTP 204 NO CONTENT
