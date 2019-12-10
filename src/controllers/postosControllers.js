@@ -1,4 +1,4 @@
-const Acolhida = require('../model/postos')
+const Posto = require('../model/postos')
 
 const fs = require('fs');
 
