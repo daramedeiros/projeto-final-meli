@@ -10,7 +10,11 @@ const AcolhidaSchema = new mongoose.Schema ({
         mulherCis: Boolean,
         mulherTrans: Boolean,
     }],
-    tipoAjuda: {type: String},
+    tipoAjuda: [{
+        _id: false,
+        piscologico: Boolean,
+        juridico: Boolean,
+    }],
     cidade: {type: String},
     bairro: {type: String},
     estado: {type: String}
