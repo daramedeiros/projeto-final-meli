@@ -17,3 +17,5 @@ const PostoSchema = new mongoose.Schema ({
 
 
 const Posto = mongoose.model('Posto', PostoSchema);
+
+module.exports = Posto;

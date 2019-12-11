@@ -18,3 +18,5 @@ const AcolhidaSchema = new mongoose.Schema ({
 
 
 const Acolhida = mongoose.model('Acolhida', AcolhidaSchema);
+
+module.exports = Acolhida;

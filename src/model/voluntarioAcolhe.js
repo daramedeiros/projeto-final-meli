@@ -14,3 +14,5 @@ const VoluntariaSchema = new mongoose.Schema ({
 
 
 const Voluntaria = mongoose.model('Voluntaria', VoluntariaSchema);
+
+module.exports = Voluntaria;

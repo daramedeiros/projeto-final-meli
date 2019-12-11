@@ -5,4 +5,8 @@ const controller = require("../controllers/acolhidaControllers")
 router.get("/", controller.get)
 
 
+router.post("/", controller.post)
+
+
+
 module.exports = router

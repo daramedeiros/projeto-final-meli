@@ -1,4 +1,4 @@
-const Posto = require('../model/postos')
+const Posto = require('../model/postosDeSevicosDeAtendimento')
 
 const fs = require('fs');
 

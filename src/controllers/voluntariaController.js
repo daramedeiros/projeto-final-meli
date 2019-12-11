@@ -1,4 +1,4 @@
-const Voluntaria = require('../model/voluntaria')
+const Voluntaria = require('../model/voluntarioAcolhe')
 
 const fs = require('fs');
 
