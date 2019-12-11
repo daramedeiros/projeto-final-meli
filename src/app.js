@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const app = express()
 
 //String de conexão com o mongodb
-mongoose.connect();
+mongoose.connect("mongodb://localhost:27017");
 
 //representação da conexão com o banco de dados 
 let db = mongoose.connection;
