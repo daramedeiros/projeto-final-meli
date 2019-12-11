@@ -5,7 +5,11 @@ const AcolhidaSchema = new mongoose.Schema ({
     sobrenome: {type: String},
     idade: {type: Number},
     email:{type: String},
-    genero:{type: Boolean},
+    genero: [{
+        _id: false,
+        mulherCis: Boolean,
+        mulherTrans: Boolean,
+    }],
     tipoAjuda: {type: String},
     cidade: {type: String},
     bairro: {type: String},
