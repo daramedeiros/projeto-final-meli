@@ -39,7 +39,7 @@ app.use(bodyParser.json());
 app.use("/", index)
 app.use("/queroSerAcolhida", queroSerAcolhida)
 app.use("/voluntariaAcolhe", voluntariaAcolhe)
-app.use("/postosDeSevicosDeAtendimento ", postosDeSevicosDeAtendimento )
+app.use("/postosDeSevicosDeAtendimento", postosDeSevicosDeAtendimento )
 
 
 module.exports = app

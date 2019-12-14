@@ -8,3 +8,15 @@ exports.get = (req, res) => {
     res.status(200).send(posto);
   })
 }
+
+
+exports.post = (req, res) => {
+  let posto = new Posto(req.body);
+
+  posto.save(function (err) {
+    if (err) res.status(500).send(err);
+
+    res.status(201).send(posto);
+
+  })
+  }

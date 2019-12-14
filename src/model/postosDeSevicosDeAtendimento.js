@@ -8,7 +8,7 @@ const PostoSchema = new mongoose.Schema ({
     cidade:{type: String},
     bairro: {type: String},
     estado: {type: String},
-    contato: {type: Number}
+    contato: {type: String}
 
 }
 , {

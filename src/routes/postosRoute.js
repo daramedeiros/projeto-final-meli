@@ -4,5 +4,6 @@ const controller = require("../controllers/postosControllers")
 
 router.get("/", controller.get)
 
+router.post("/", controller.post)
 
 module.exports = router
