@@ -4,9 +4,14 @@ const VoluntariaSchema = new mongoose.Schema ({
     nome: {type: String},
     sobrenome: {type: String},
     email:{type: String},
-    cepAtendimento: {type: Number},
-    telefoneAtendimento: {type: Number},
-    whatsapp: {type: String}
+    cepAtendimento: {type: String},
+    telefoneAtendimento: {type: String},
+    whatsapp: {type: String},
+    tipoDeServicoPrestado: [{
+        _id: false,
+        piscologico: Boolean,
+        juridico: Boolean,
+    }]
 }
 , {
     versionKey: false

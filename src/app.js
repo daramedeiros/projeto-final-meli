@@ -21,7 +21,7 @@ db.once("open", function (){
 //rotas
 const index = require("./routes/index")
 const queroSerAcolhida = require("./routes/acolhidaRoute")
-const voluntarioAcolhe = require("./routes/voluntariaRoute")
+const voluntariaAcolhe = require("./routes/voluntariaRoute")
 const postosDeSevicosDeAtendimento  = require("./routes/postosRoute")
 
 
@@ -38,7 +38,7 @@ app.use(bodyParser.json());
 
 app.use("/", index)
 app.use("/queroSerAcolhida", queroSerAcolhida)
-app.use("/voluntarioAcolhe", voluntarioAcolhe)
+app.use("/voluntariaAcolhe", voluntariaAcolhe)
 app.use("/postosDeSevicosDeAtendimento ", postosDeSevicosDeAtendimento )
 
 
