@@ -10,25 +10,16 @@ GET /postosDeSevicosDeAtendimento <br/>
 Rota que retorna uma lista com todos os postos de serviços de atendimentos cadastrados.<br/>
 HTTP 200 OK
 
-GET/postosDeSevicosDeAtendimento/:id <br/>
-Rota que retorna os detalhes sobre algum posto de serviço, baseado no seu id.<br/>
-HTTP 200 OK
 
 GET/queroSerAcolhida <br/>
 Rota que retorna lista com todas pessoas que querem ser acolhidas por algum serviço voluntário. <br/>
 HTTP 200 OK
 
-GET/queroSerAcolhida/:id <br/>
-Rota que retorna os detalhes sobre uma pessoa que quer ser acolhida, baseado no seu id.<br/>
-HTTP 200 OK
 
 GET/voluntarioAcolhe <br/>
 Rota que retorna uma lista com todas as profissionais (terapeutas  e advogadas) cadastradas para prestar seu serviço voluntariamente. <br/>
 HTTP 200 OK
 
-GET/voluntarioAcolhe/:id <br/>
-Rota que retorna os detalhes sobre cada profissional cadastrada, com base no seu id. <br/>
-HTTP 200 OK
 
 POST /postosDeSevicosDeAtendimento <br/>
 Rota que recebe e adiciona um novo posto de serviço de atendimento, retorna o item criado. <br/>
