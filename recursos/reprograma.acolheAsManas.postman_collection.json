@@ -1,0 +1,477 @@
+{
+	"info": {
+		"_postman_id": "134e1c5a-977e-4938-a088-1122e813fcab",
+		"name": "reprograma.acolheAsManas",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Postos",
+			"item": [
+				{
+					"name": "acolheAsManas.postosDeSevicosDeAtendimento",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"nome\":\"DDM - Carapicuíba\",\n\"logadouro\": \"Av. Rui Barbosa\",\n\"numero\": 1582,\n\"complemento\":\"\",\n\"cidade\":\"Carapicuíba\",\n\"bairro\":\"Vila Caldas\",\n\"estado\":\"São Paulo\",\n\"contato\":\"(11) 4187-7183\"\n\t\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/postosDeSevicosDeAtendimento",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"postosDeSevicosDeAtendimento"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "acolheAsManas.postosDeSevicosDeAtendimento.listar",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"nome\":\"DDM - Carapicuíba\",\n\"logadouro\": \"Av. Rui Barbosa\",\n\"numero\": 1582,\n\"complemento\":\"\",\n\"cidade\":\"Carapicuíba\",\n\"bairro\":\"Vila Caldas\",\n\"estado\":\"São Paulo\",\n\"contato\":\"(11) 4187-7183\"\n\t\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/postosDeSevicosDeAtendimento",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"postosDeSevicosDeAtendimento"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "acolheAsManas.postosDeSevicosDeAtendimento.id",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/postosDeSevicosDeAtendimento/5df6310f1c9d4400008efc80",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"postosDeSevicosDeAtendimento",
+								"5df6310f1c9d4400008efc80"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "acolheAsManas.postosDeSevicosDeAtendimento.id",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"nome\":\"DDM - Carapicuíba\",\n\"logadouro\": \"Av. Rui Barbosa\",\n\"numero\": 1582,\n\"cidade\":\"Carapicuíba\",\n\"bairro\":\"Vila Caldas\",\n\"estado\":\"São Paulo\",\n\"contato\":\"(11) 4187-2616\"\n\t\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/postosDeSevicosDeAtendimento/5df463cb6b5bac2716262db2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"postosDeSevicosDeAtendimento",
+								"5df463cb6b5bac2716262db2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "acolheAsManas.postosDeSevicosDeAtendimento.id",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"nome\":\"DDM - Carapicuíba\",\n\"logadouro\": \"Av. Rui Barbosa\",\n\"numero\": 1582,\n\"complemento\":\"\",\n\"cidade\":\"Carapicuíba\",\n\"bairro\":\"Vila Caldas\",\n\"estado\":\"São Paulo\",\n\"contato\":\"(11) 4187-7183\"\n\t\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/postosDeSevicosDeAtendimento/5df45ecd6b5bac2716262dad",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"postosDeSevicosDeAtendimento",
+								"5df45ecd6b5bac2716262dad"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Acolhe",
+			"item": [
+				{
+					"name": "acolheAsManas.queroSerAcolhida",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"nome\": \"Mariana\",\n    \"sobrenome\": \"Santos\",\n    \"idade\": \"24\",\n    \"email\":\"marianasantoss@gmail.com\",\n        \"genero\": [{\n        \"_id\": false,\n        \"mulherCis\": true,\n        \"mulherTrans\": false\n        }],\n    \n    \"tipoAjuda\": [{\n        \"_id\": false,\n        \"piscologico\": false,\n        \"juridico\": true\n    }],\n    \"cidade\": \"Carapicuíba\",\n    \"bairro\": \"Capriotti\",\n    \"estado\": \"SP\"\n\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/queroSerAcolhida",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"queroSerAcolhida"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "acolheAsManas.queroSerAcolhida.listar",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/queroSerAcolhida",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"queroSerAcolhida"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "acolheAsManas.queroSerAcolhida.id",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/queroSerAcolhida/5df142a5fc80af38a3d4a841",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"queroSerAcolhida",
+								"5df142a5fc80af38a3d4a841"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "acolheAsManas.queroSerAcolhida.id",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\n        \"nome\": \"Cristiane\",\n        \"sobrenome\": \"Santos\",\n        \"idade\": 32,\n        \"email\": \"cristianesantoss@gmail.com\",\n        \"genero\": [\n            {\n                \"mulherCis\": true,\n                \"mulherTrans\": false\n            }\n        ],\n        \"tipoAjuda\": [\n            {\n                \"piscologico\": false,\n                \"juridico\": true\n            }\n        ],\n        \"cidade\": \"Carapicuíba\",\n        \"bairro\": \"Jd Planalto\",\n        \"estado\": \"SP\"\n    }"
+						},
+						"url": {
+							"raw": "http://localhost:3000/queroSerAcolhida/5df142a5fc80af38a3d4a841",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"queroSerAcolhida",
+								"5df142a5fc80af38a3d4a841"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "acolheAsManas.queroSerAcolhida.id",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/queroSerAcolhida/5df641080d497278967e1d88",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"queroSerAcolhida",
+								"5df641080d497278967e1d88"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Voluntaria",
+			"item": [
+				{
+					"name": "acolheAsManas.voluntarioAcolhe",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nome\": \"Julia\",\r\n    \"sobrenome\":\"Souza\",\r\n    \"email\":\"juliaasouza@gmail.com\",\r\n    \"cepAtendimento\":\"06321-010\",\r\n    \"telefoneAtendimento\":\"(11) 4187-1224\",\r\n    \"whatsapp\":\"(11)97468-5557\",\r\n    \"tipoDeServicoPrestado\": [{\r\n        \"_id\": false,\r\n        \"piscologico\": false,\r\n        \"juridico\": true\r\n    }]\r\n\r\n}\r\n"
+						},
+						"url": {
+							"raw": "http://localhost:3000/voluntariaAcolhe",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"voluntariaAcolhe"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "acolheAsManas.voluntarioAcolhe.listar",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nome\": \"Julia\",\r\n    \"sobrenome\":\"Souza\",\r\n    \"email\":\"juliaasouza@gmail.com\",\r\n    \"cepAtendimento\":\"06321-010\",\r\n    \"telefoneAtendimento\":\"(11) 4187-1224\",\r\n    \"whatsapp\":\"(11)97468-5557\",\r\n    \"tipoDeServicoPrestado\": [{\r\n        \"_id\": false,\r\n        \"piscologico\": false,\r\n        \"juridico\": true\r\n    }]\r\n\r\n}\r\n"
+						},
+						"url": {
+							"raw": "http://localhost:3000/voluntariaAcolhe",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"voluntariaAcolhe"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "acolheAsManas.voluntariaAcolhe.id",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/voluntariaAcolhe/5df456ef03ec5e21a1e989f8",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"voluntariaAcolhe",
+								"5df456ef03ec5e21a1e989f8"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "acolheAsManas.voluntariaAcolhe.id",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"nome\": \"Izabel\",\n    \"sobrenome\": \"Castro\",\n    \"email\": \"izacastrolaw@gmail.com\",\n    \"cepAtendimento\": \"06330-001\",\n    \"telefoneAtendimento\": \"(11) 4188-9947\",\n    \"whatsapp\": \"(11)98767-9945\",\n    \"tipoDeServicoPrestado\": [\n        {\n            \"piscologico\": false,\n            \"juridico\": true\n        }\n    ]\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/voluntariaAcolhe/5df456ef03ec5e21a1e989f8",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"voluntariaAcolhe",
+								"5df456ef03ec5e21a1e989f8"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "acolheAsManas.voluntariaAcolhe.id",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/voluntariaAcolhe/5df6468b5090e07d942d1e2e",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"voluntariaAcolhe",
+								"5df6468b5090e07d942d1e2e"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
