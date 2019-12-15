@@ -21,6 +21,30 @@ exports.post = (req, res) => {
   })
 }
 
+exports.getById = (req, res) => {
+  const postoId = req.params.id
+
+  Posto.findById(postoId, function (err, posto) {
+    if (err) return res.status(500).send(err);
+
+    if (!posto) {
+      return res.status(200).send({ message: `Infelizmente não localizamos a aluna de id: ${postoId}` });
+    }
+
+    res.status(200).send(posto);
+  })
+}
+
+exports.update = (req, res) => {  
+  Posto.update(
+    { _id: req.params.id },
+    { $set: req.body },
+    { upsert: true },
+    function (err) {
+      if (err) return res.status(500).send({ message: err });
+      res.status(200).send({ message: "Atualizado com sucesso!" });
+    })
+}
 
 
 exports.deletarPosto = (req, res) => {
@@ -35,8 +59,10 @@ exports.deletarPosto = (req, res) => {
 
     posto.remove(function (err) {
       if (!err) {
-        res.status(200).send({ message: 'Posto removido com sucesso...' });
+        res.status(200).send({ message: 'Posto de serviço removido com sucesso...' });
       }
     })
   })
 }
+
+
