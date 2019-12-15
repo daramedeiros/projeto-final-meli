@@ -28,7 +28,7 @@ exports.getById = (req, res) => {
     if (err) return res.status(500).send(err);
 
     if (!posto) {
-      return res.status(200).send({ message: `Infelizmente não localizamos a aluna de id: ${postoId}` });
+      return res.status(200).send({ message: `Infelizmente não localizamos o posto pelo id: ${postoId}` });
     }
 
     res.status(200).send(posto);
