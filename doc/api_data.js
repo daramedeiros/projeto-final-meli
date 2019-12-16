@@ -61,8 +61,8 @@ define({ "api": [
   },
   {
     "type": "PUT",
-    "url": "router.put(\"/:id\",",
-    "title": "controller.put),",
+    "url": "/:id",
+    "title": "",
     "name": "PUT_Acolhida",
     "group": "Acolhida",
     "success": {
@@ -73,14 +73,14 @@ define({ "api": [
             "type": "Object[]",
             "optional": false,
             "field": "Atualiza",
-            "description": "<p>informações da pessoa que deseja ser acolhida</p>"
+            "description": "<p>informações da pessoa que deseja ser acolhida pelo seu ID</p>"
           }
         ]
       },
       "examples": [
         {
           "title": "Success-Response:",
-          "content": "   HTTP/1.1 200 OK\n [{\n    \"nome\": \"Teste\",\n    \"sobrenome\": \"Teste\",\n    \"idade\": 32,\n    \"email\": \"teste@teste.com\",\n     \"genero\": \n        [{\n            \"mulherCis\": true,\n            \"mulherTrans\": false\n        }],\n     \"tipoAjuda\": \n        [{\n            \"piscologico\": false,\n            \"juridico\": true\n        }],\n    \"cidade\": \"teste\",\n    \"bairro\": \"teste\",\n    \"estado\": \"teste\"\n}]",
+          "content": "   HTTP/1.1 200 OK\n [{\n    \"nome\": \"Teste\",\n    \"sobrenome\": \"Teste\",\n    \"idade\": 32,\n    \"email\": \"teste@teste.com\",\n    \"genero\": \n        [{\n            \"mulherCis\": true,\n            \"mulherTrans\": false\n        }],\n     \"tipoAjuda\": \n        [{\n            \"piscologico\": false,\n            \"juridico\": true\n        }],\n    \"cidade\": \"teste\",\n    \"bairro\": \"teste\",\n    \"estado\": \"teste\"\n}]",
           "type": "json"
         }
       ]

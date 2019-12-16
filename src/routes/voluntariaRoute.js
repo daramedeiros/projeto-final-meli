@@ -3,8 +3,8 @@ const router = express.Router()
 const controller = require("../controllers/voluntariaController")
 
 /**
- * @api {get} /voluntariaRoute
- * @apiName GetVoluntaria
+ * @api {get} /voluntariaAcolhe
+ * @apiName Get voluntariaAcolhe
  * @apiGroup voluntaria
  *
  *
@@ -31,8 +31,8 @@ router.get("/", controller.get)
 router.get("/:id", controller.getById)
 
 /**
- * @api {POST} /voluntariaRoute
- * @apiName POST voluntaria
+ * @api {POST} /voluntariaAcolhe
+ * @apiName POST voluntariaAcolhe
  * @apiGroup voluntaria
  *
  *
@@ -60,9 +60,9 @@ router.post("/", controller.post)
 
 
 /**
- * @api {PUT} router.put("/:id", controller.put),
- * @apiName PUT Posto
- * @apiGroup Posto
+ * @api {PUT} /voluntariaAcolhe/:id
+ * @apiName PUT voluntariaAcolhe
+ * @apiGroup voluntaria
  *
  *
  * @apiSuccess {Object[]} Atualiza informações da profissional voluntaria cadastrada

@@ -3,9 +3,9 @@ const router = express.Router()
 const controller = require("../controllers/postosControllers")
 
 /**
- * @api {get} /postosRoute
- * @apiName GetPosto
- * @apiGroup Posto
+ * @api {get} /postosDeSevicosDeAtendimento
+ * @apiName Get postosDeSevicosDeAtendimento
+ * @apiGroup Postos
  *
  *
  * @apiSuccess {Object[]} Retorna todos os Postos de serviço de atendimento para mulherescadastrados
@@ -29,9 +29,9 @@ router.get("/:id", controller.getById)
 
 
 /**
- * @api {POST} /postosRoute
- * @apiName POST Posto
- * @apiGroup Posto
+ * @api {POST} /postosDeSevicosDeAtendimento
+ * @apiName POST postosDeSevicosDeAtendimento
+ * @apiGroup Postos
  *
  *
  * @apiSuccess {Object[]} Cadastra o um novo posto de serviço de atendimento para mulheres
@@ -54,9 +54,9 @@ router.post("/", controller.post)
 
 
 /**
- * @api {PUT} router.put("/:id", controller.put),
- * @apiName PUT Posto
- * @apiGroup Posto
+ * @api {PUT} /postosDeSevicosDeAtendimento/:id
+ * @apiName PUT postosDeSevicosDeAtendimento
+ * @apiGroup Postos
  *
  *
  * @apiSuccess {Object[]} Atualiza informações do posto de serviço de atendimento

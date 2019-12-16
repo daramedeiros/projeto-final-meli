@@ -4,8 +4,8 @@ const controller = require("../controllers/acolhidaControllers")
 
 
 /**
- * @api {get} /AcolhidaRoute
- * @apiName GetAcolhida
+ * @api {get} /queroSerAcolhida
+ * @apiName Get queroSerAcolhida
  * @apiGroup AColhida
  *
  *
@@ -39,8 +39,8 @@ router.get("/:id", controller.getById)
 
 
 /**
- * @api {POST} /AcolhidaRoute
- * @apiName POST Acolhida
+ * @api {POST} /queroSerAcolhida
+ * @apiName POST queroSerAcolhida
  * @apiGroup Acolhida
  *
  *
@@ -74,12 +74,12 @@ router.post("/", controller.post)
 
 
 /**
- * @api {PUT} router.put("/:id", controller.put),
- * @apiName PUT Acolhida
+ * @api {PUT} /queroSerAcolhida/:id
+ * @apiName PUT /queroSerAcolhida
  * @apiGroup Acolhida
  *
  *
- * @apiSuccess {Object[]} Atualiza informações da pessoa que deseja ser acolhida
+ * @apiSuccess {Object[]} Atualiza informações da pessoa que deseja ser acolhida pelo seu ID
  *
  * @apiSuccessExample Success-Response:
  *     HTTP/1.1 200 OK
