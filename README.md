@@ -4,7 +4,7 @@ Projeto: AcolherAsManas<br/>
 ### Por que isso é importante?
 
 - Pelo fim da cultura do estupro!<br/>
-A cada 11 minutos, uma mulher é estuprada do Brasil¹ e 85% têm medo de ser vítimoa de violência sexual². Essa luta é urgente e é de todoas nós. Precisamos romper este ciclo!
+A cada 11 minutos, uma mulher é estuprada do Brasil¹ e 85% têm medo de ser vítima de violência sexual². Essa luta é urgente e é de todas nós. Precisamos romper este ciclo!
 
 - A violência acontece dentro de casa. <br/>
 3 em cada 5 mulheres já sofreram alguma violência dentro do relacionamento³. Nos casos de estupro em que o autor é conhecido, 78,6% acontecem no local de residência³.
