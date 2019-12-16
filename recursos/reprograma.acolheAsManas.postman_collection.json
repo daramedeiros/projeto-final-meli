@@ -25,12 +25,13 @@
 							"raw": "{\n\"nome\":\"DDM - Carapicuíba\",\n\"logadouro\": \"Av. Rui Barbosa\",\n\"numero\": 1582,\n\"complemento\":\"\",\n\"cidade\":\"Carapicuíba\",\n\"bairro\":\"Vila Caldas\",\n\"estado\":\"São Paulo\",\n\"contato\":\"(11) 4187-7183\"\n\t\n}"
 						},
 						"url": {
-							"raw": "http://localhost:3000/postosDeSevicosDeAtendimento",
-							"protocol": "http",
+							"raw": "https://acolhe-as-manas.herokuapp.com/postosDeSevicosDeAtendimento",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"acolhe-as-manas",
+								"herokuapp",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"postosDeSevicosDeAtendimento"
 							]
@@ -58,12 +59,13 @@
 							"raw": "{\n\"nome\":\"DDM - Carapicuíba\",\n\"logadouro\": \"Av. Rui Barbosa\",\n\"numero\": 1582,\n\"complemento\":\"\",\n\"cidade\":\"Carapicuíba\",\n\"bairro\":\"Vila Caldas\",\n\"estado\":\"São Paulo\",\n\"contato\":\"(11) 4187-7183\"\n\t\n}"
 						},
 						"url": {
-							"raw": "http://localhost:3000/postosDeSevicosDeAtendimento",
-							"protocol": "http",
+							"raw": "https://acolhe-as-manas.herokuapp.com/postosDeSevicosDeAtendimento",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"acolhe-as-manas",
+								"herokuapp",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"postosDeSevicosDeAtendimento"
 							]
@@ -85,15 +87,16 @@
 							}
 						],
 						"url": {
-							"raw": "http://localhost:3000/postosDeSevicosDeAtendimento/5df6310f1c9d4400008efc80",
-							"protocol": "http",
+							"raw": "https://acolhe-as-manas.herokuapp.com/postosDeSevicosDeAtendimento/5df461596b5bac2716262dae",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"acolhe-as-manas",
+								"herokuapp",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"postosDeSevicosDeAtendimento",
-								"5df6310f1c9d4400008efc80"
+								"5df461596b5bac2716262dae"
 							]
 						}
 					},
@@ -116,12 +119,13 @@
 							"raw": "{\n\"nome\":\"DDM - Carapicuíba\",\n\"logadouro\": \"Av. Rui Barbosa\",\n\"numero\": 1582,\n\"cidade\":\"Carapicuíba\",\n\"bairro\":\"Vila Caldas\",\n\"estado\":\"São Paulo\",\n\"contato\":\"(11) 4187-2616\"\n\t\n}"
 						},
 						"url": {
-							"raw": "http://localhost:3000/postosDeSevicosDeAtendimento/5df463cb6b5bac2716262db2",
-							"protocol": "http",
+							"raw": "https://acolhe-as-manas.herokuapp.com/postosDeSevicosDeAtendimento/5df463cb6b5bac2716262db2",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"acolhe-as-manas",
+								"herokuapp",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"postosDeSevicosDeAtendimento",
 								"5df463cb6b5bac2716262db2"
@@ -147,12 +151,13 @@
 							"raw": "{\n\"nome\":\"DDM - Carapicuíba\",\n\"logadouro\": \"Av. Rui Barbosa\",\n\"numero\": 1582,\n\"complemento\":\"\",\n\"cidade\":\"Carapicuíba\",\n\"bairro\":\"Vila Caldas\",\n\"estado\":\"São Paulo\",\n\"contato\":\"(11) 4187-7183\"\n\t\n}"
 						},
 						"url": {
-							"raw": "http://localhost:3000/postosDeSevicosDeAtendimento/5df45ecd6b5bac2716262dad",
-							"protocol": "http",
+							"raw": "https://acolhe-as-manas.herokuapp.com/postosDeSevicosDeAtendimento/5df45ecd6b5bac2716262dad",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"acolhe-as-manas",
+								"herokuapp",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"postosDeSevicosDeAtendimento",
 								"5df45ecd6b5bac2716262dad"
@@ -189,12 +194,13 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3000/queroSerAcolhida",
-							"protocol": "http",
+							"raw": "https://acolhe-as-manas.herokuapp.com/queroSerAcolhida",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"acolhe-as-manas",
+								"herokuapp",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"queroSerAcolhida"
 							]
@@ -215,12 +221,13 @@
 							}
 						],
 						"url": {
-							"raw": "http://localhost:3000/queroSerAcolhida",
-							"protocol": "http",
+							"raw": "https://acolhe-as-manas.herokuapp.com/queroSerAcolhida",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"acolhe-as-manas",
+								"herokuapp",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"queroSerAcolhida"
 							]
@@ -242,12 +249,13 @@
 							}
 						],
 						"url": {
-							"raw": "http://localhost:3000/queroSerAcolhida/5df142a5fc80af38a3d4a841",
-							"protocol": "http",
+							"raw": "https://acolhe-as-manas.herokuapp.com/queroSerAcolhida/5df142a5fc80af38a3d4a841",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"acolhe-as-manas",
+								"herokuapp",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"queroSerAcolhida",
 								"5df142a5fc80af38a3d4a841"
@@ -273,12 +281,13 @@
 							"raw": "    {\n        \"nome\": \"Cristiane\",\n        \"sobrenome\": \"Santos\",\n        \"idade\": 32,\n        \"email\": \"cristianesantoss@gmail.com\",\n        \"genero\": [\n            {\n                \"mulherCis\": true,\n                \"mulherTrans\": false\n            }\n        ],\n        \"tipoAjuda\": [\n            {\n                \"piscologico\": false,\n                \"juridico\": true\n            }\n        ],\n        \"cidade\": \"Carapicuíba\",\n        \"bairro\": \"Jd Planalto\",\n        \"estado\": \"SP\"\n    }"
 						},
 						"url": {
-							"raw": "http://localhost:3000/queroSerAcolhida/5df142a5fc80af38a3d4a841",
-							"protocol": "http",
+							"raw": "https://acolhe-as-manas.herokuapp.com/queroSerAcolhida/5df142a5fc80af38a3d4a841",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"acolhe-as-manas",
+								"herokuapp",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"queroSerAcolhida",
 								"5df142a5fc80af38a3d4a841"
@@ -300,12 +309,13 @@
 							}
 						],
 						"url": {
-							"raw": "http://localhost:3000/queroSerAcolhida/5df641080d497278967e1d88",
-							"protocol": "http",
+							"raw": "https://acolhe-as-manas.herokuapp.com/queroSerAcolhida/5df641080d497278967e1d88",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"acolhe-as-manas",
+								"herokuapp",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"queroSerAcolhida",
 								"5df641080d497278967e1d88"
@@ -337,12 +347,13 @@
 							"raw": "{\r\n    \"nome\": \"Julia\",\r\n    \"sobrenome\":\"Souza\",\r\n    \"email\":\"juliaasouza@gmail.com\",\r\n    \"cepAtendimento\":\"06321-010\",\r\n    \"telefoneAtendimento\":\"(11) 4187-1224\",\r\n    \"whatsapp\":\"(11)97468-5557\",\r\n    \"tipoDeServicoPrestado\": [{\r\n        \"_id\": false,\r\n        \"piscologico\": false,\r\n        \"juridico\": true\r\n    }]\r\n\r\n}\r\n"
 						},
 						"url": {
-							"raw": "http://localhost:3000/voluntariaAcolhe",
-							"protocol": "http",
+							"raw": "https://acolhe-as-manas.herokuapp.com/voluntariaAcolhe",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"acolhe-as-manas",
+								"herokuapp",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"voluntariaAcolhe"
 							]
@@ -370,12 +381,13 @@
 							"raw": "{\r\n    \"nome\": \"Julia\",\r\n    \"sobrenome\":\"Souza\",\r\n    \"email\":\"juliaasouza@gmail.com\",\r\n    \"cepAtendimento\":\"06321-010\",\r\n    \"telefoneAtendimento\":\"(11) 4187-1224\",\r\n    \"whatsapp\":\"(11)97468-5557\",\r\n    \"tipoDeServicoPrestado\": [{\r\n        \"_id\": false,\r\n        \"piscologico\": false,\r\n        \"juridico\": true\r\n    }]\r\n\r\n}\r\n"
 						},
 						"url": {
-							"raw": "http://localhost:3000/voluntariaAcolhe",
-							"protocol": "http",
+							"raw": "https://acolhe-as-manas.herokuapp.com/voluntariaAcolhe",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"acolhe-as-manas",
+								"herokuapp",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"voluntariaAcolhe"
 							]
@@ -397,12 +409,13 @@
 							}
 						],
 						"url": {
-							"raw": "http://localhost:3000/voluntariaAcolhe/5df456ef03ec5e21a1e989f8",
-							"protocol": "http",
+							"raw": "https://acolhe-as-manas.herokuapp.com/voluntariaAcolhe/5df456ef03ec5e21a1e989f8",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"acolhe-as-manas",
+								"herokuapp",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"voluntariaAcolhe",
 								"5df456ef03ec5e21a1e989f8"
@@ -428,12 +441,13 @@
 							"raw": "{\n    \"nome\": \"Izabel\",\n    \"sobrenome\": \"Castro\",\n    \"email\": \"izacastrolaw@gmail.com\",\n    \"cepAtendimento\": \"06330-001\",\n    \"telefoneAtendimento\": \"(11) 4188-9947\",\n    \"whatsapp\": \"(11)98767-9945\",\n    \"tipoDeServicoPrestado\": [\n        {\n            \"piscologico\": false,\n            \"juridico\": true\n        }\n    ]\n}"
 						},
 						"url": {
-							"raw": "http://localhost:3000/voluntariaAcolhe/5df456ef03ec5e21a1e989f8",
-							"protocol": "http",
+							"raw": "https://acolhe-as-manas.herokuapp.com/voluntariaAcolhe/5df456ef03ec5e21a1e989f8",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"acolhe-as-manas",
+								"herokuapp",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"voluntariaAcolhe",
 								"5df456ef03ec5e21a1e989f8"
@@ -455,12 +469,13 @@
 							}
 						],
 						"url": {
-							"raw": "http://localhost:3000/voluntariaAcolhe/5df6468b5090e07d942d1e2e",
-							"protocol": "http",
+							"raw": "https://acolhe-as-manas.herokuapp.com/voluntariaAcolhe/5df6468b5090e07d942d1e2e",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"acolhe-as-manas",
+								"herokuapp",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"voluntariaAcolhe",
 								"5df6468b5090e07d942d1e2e"
