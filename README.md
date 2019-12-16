@@ -24,4 +24,4 @@ Está aplicação é uma API que busca conectar  mulheres que sofrem ou sofreram
 - Framework Express 
 - Library: body-parse, mongoose, apidoc.
 
-[POSTMAN] (https://www.getpostman.com/collections/7b18ce4964ae7765bc1a/postman/)
+https://www.getpostman.com/collections/7b18ce4964ae7765bc1a
