@@ -1,9 +1,9 @@
 define({ "api": [
   {
     "type": "get",
-    "url": "/AcolhidaRoute",
+    "url": "/queroSerAcolhida",
     "title": "",
-    "name": "GetAcolhida",
+    "name": "Get_queroSerAcolhida",
     "group": "AColhida",
     "success": {
       "fields": {
@@ -31,9 +31,9 @@ define({ "api": [
   },
   {
     "type": "POST",
-    "url": "/AcolhidaRoute",
+    "url": "/queroSerAcolhida",
     "title": "",
-    "name": "POST_Acolhida",
+    "name": "POST_queroSerAcolhida",
     "group": "Acolhida",
     "success": {
       "fields": {
@@ -61,9 +61,9 @@ define({ "api": [
   },
   {
     "type": "PUT",
-    "url": "/:id",
+    "url": "/queroSerAcolhida/:id",
     "title": "",
-    "name": "PUT_Acolhida",
+    "name": "PUT__queroSerAcolhida",
     "group": "Acolhida",
     "success": {
       "fields": {
@@ -91,10 +91,10 @@ define({ "api": [
   },
   {
     "type": "get",
-    "url": "/postosRoute",
+    "url": "/postosDeSevicosDeAtendimento",
     "title": "",
-    "name": "GetPosto",
-    "group": "Posto",
+    "name": "Get_postosDeSevicosDeAtendimento",
+    "group": "Postos",
     "success": {
       "fields": {
         "Success 200": [
@@ -117,14 +117,14 @@ define({ "api": [
     },
     "version": "0.0.0",
     "filename": "src/routes/postosRoute.js",
-    "groupTitle": "Posto"
+    "groupTitle": "Postos"
   },
   {
     "type": "POST",
-    "url": "/postosRoute",
+    "url": "/postosDeSevicosDeAtendimento",
     "title": "",
-    "name": "POST_Posto",
-    "group": "Posto",
+    "name": "POST_postosDeSevicosDeAtendimento",
+    "group": "Postos",
     "success": {
       "fields": {
         "Success 200": [
@@ -147,14 +147,14 @@ define({ "api": [
     },
     "version": "0.0.0",
     "filename": "src/routes/postosRoute.js",
-    "groupTitle": "Posto"
+    "groupTitle": "Postos"
   },
   {
     "type": "PUT",
-    "url": "router.put(\"/:id\",",
-    "title": "controller.put),",
-    "name": "PUT_Posto",
-    "group": "Posto",
+    "url": "/postosDeSevicosDeAtendimento/:id",
+    "title": "",
+    "name": "PUT_postosDeSevicosDeAtendimento",
+    "group": "Postos",
     "success": {
       "fields": {
         "Success 200": [
@@ -177,43 +177,13 @@ define({ "api": [
     },
     "version": "0.0.0",
     "filename": "src/routes/postosRoute.js",
-    "groupTitle": "Posto"
-  },
-  {
-    "type": "PUT",
-    "url": "router.put(\"/:id\",",
-    "title": "controller.put),",
-    "name": "PUT_Posto",
-    "group": "Posto",
-    "success": {
-      "fields": {
-        "Success 200": [
-          {
-            "group": "Success 200",
-            "type": "Object[]",
-            "optional": false,
-            "field": "Atualiza",
-            "description": "<p>informações da profissional voluntaria cadastrada</p>"
-          }
-        ]
-      },
-      "examples": [
-        {
-          "title": "Success-Response:",
-          "content": "   HTTP/1.1 200 OK\n [{\n    \"nome\": \"teste\",\n    \"sobrenome\": \"teste\",\n    \"email\": \"testelaw@gmail.com\",\n    \"cepAtendimento\": \"06330-001\",\n    \"telefoneAtendimento\": \"(11) 4188-9947\",\n    \"whatsapp\": \"(11)98767-9945\",\n     \"tipoDeServicoPrestado\": \n        [{\n             \"piscologico\": false,\n             \"juridico\": true\n        }]\n}]",
-          "type": "json"
-        }
-      ]
-    },
-    "version": "0.0.0",
-    "filename": "src/routes/voluntariaRoute.js",
-    "groupTitle": "Posto"
+    "groupTitle": "Postos"
   },
   {
     "type": "get",
-    "url": "/voluntariaRoute",
+    "url": "/voluntariaAcolhe",
     "title": "",
-    "name": "GetVoluntaria",
+    "name": "Get_voluntariaAcolhe",
     "group": "voluntaria",
     "success": {
       "fields": {
@@ -241,9 +211,9 @@ define({ "api": [
   },
   {
     "type": "POST",
-    "url": "/voluntariaRoute",
+    "url": "/voluntariaAcolhe",
     "title": "",
-    "name": "POST_voluntaria",
+    "name": "POST_voluntariaAcolhe",
     "group": "voluntaria",
     "success": {
       "fields": {
@@ -254,6 +224,36 @@ define({ "api": [
             "optional": false,
             "field": "Cadastra",
             "description": "<p>uma nova profissional voluntaria</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Success-Response:",
+          "content": "   HTTP/1.1 200 OK\n [{\n    \"nome\": \"teste\",\n    \"sobrenome\": \"teste\",\n    \"email\": \"testelaw@gmail.com\",\n    \"cepAtendimento\": \"06330-001\",\n    \"telefoneAtendimento\": \"(11) 4188-9947\",\n    \"whatsapp\": \"(11)98767-9945\",\n     \"tipoDeServicoPrestado\": \n        [{\n             \"piscologico\": false,\n             \"juridico\": true\n        }]\n}]",
+          "type": "json"
+        }
+      ]
+    },
+    "version": "0.0.0",
+    "filename": "src/routes/voluntariaRoute.js",
+    "groupTitle": "voluntaria"
+  },
+  {
+    "type": "PUT",
+    "url": "/voluntariaAcolhe/:id",
+    "title": "",
+    "name": "PUT_voluntariaAcolhe",
+    "group": "voluntaria",
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "type": "Object[]",
+            "optional": false,
+            "field": "Atualiza",
+            "description": "<p>informações da profissional voluntaria cadastrada</p>"
           }
         ]
       },

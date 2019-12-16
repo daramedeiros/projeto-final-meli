@@ -6,7 +6,7 @@ const controller = require("../controllers/acolhidaControllers")
 /**
  * @api {get} /queroSerAcolhida
  * @apiName Get queroSerAcolhida
- * @apiGroup AColhida
+ * @apiGroup Acolhida
  *
  *
  * @apiSuccess {Object[]} Retorna todas pessoas que desejam serem acolhidas cadastradas

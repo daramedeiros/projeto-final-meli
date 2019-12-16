@@ -5,7 +5,7 @@ const controller = require("../controllers/voluntariaController")
 /**
  * @api {get} /voluntariaAcolhe
  * @apiName Get voluntariaAcolhe
- * @apiGroup voluntaria
+ * @apiGroup Voluntaria
  *
  *
  * @apiSuccess {Object[]} Retorna todas profissionais voluntarias cadastrados
@@ -33,7 +33,7 @@ router.get("/:id", controller.getById)
 /**
  * @api {POST} /voluntariaAcolhe
  * @apiName POST voluntariaAcolhe
- * @apiGroup voluntaria
+ * @apiGroup Voluntaria
  *
  *
  * @apiSuccess {Object[]} Cadastra uma nova profissional voluntaria 
@@ -62,7 +62,7 @@ router.post("/", controller.post)
 /**
  * @api {PUT} /voluntariaAcolhe/:id
  * @apiName PUT voluntariaAcolhe
- * @apiGroup voluntaria
+ * @apiGroup Voluntaria
  *
  *
  * @apiSuccess {Object[]} Atualiza informações da profissional voluntaria cadastrada
