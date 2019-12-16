@@ -3,13 +3,110 @@ const router = express.Router()
 const controller = require("../controllers/acolhidaControllers")
 
 
+/**
+ * @api {get} /AcolhidaRoute
+ * @apiName GetAcolhida
+ * @apiGroup AColhida
+ *
+ *
+ * @apiSuccess {Object[]} Retorna todas pessoas que desejam serem acolhidas cadastradas
+ *
+ * @apiSuccessExample Success-Response:
+ *     HTTP/1.1 200 OK
+ *   [{
+ *      "nome": "Teste",
+ *      "sobrenome": "Teste",
+ *      "idade": 32,
+ *      "email": "teste@teste.com",
+ *       "genero": 
+ *          [{
+ *              "mulherCis": true,
+ *              "mulherTrans": false
+ *          }],
+ *       "tipoAjuda": 
+ *          [{
+ *              "piscologico": false,
+ *              "juridico": true
+ *          }],
+ *      "cidade": "teste",
+ *      "bairro": "teste",
+ *      "estado": "teste"
+ *  }]
+ * 
+ */
 router.get("/", controller.get)
-
-
-router.post("/", controller.post)
 router.get("/:id", controller.getById)
 
+
+/**
+ * @api {POST} /AcolhidaRoute
+ * @apiName POST Acolhida
+ * @apiGroup Acolhida
+ *
+ *
+ * @apiSuccess {Object[]} Cadastra a pessoa que deseja ser acolhida
+ *
+ * @apiSuccessExample Success-Response:
+ *     HTTP/1.1 200 OK
+ *   [{
+ *      "nome": "Teste",
+ *      "sobrenome": "Teste",
+ *      "idade": 32,
+ *      "email": "teste@teste.com",
+ *       "genero": 
+ *          [{
+ *              "mulherCis": true,
+ *              "mulherTrans": false
+ *          }],
+ *       "tipoAjuda": 
+ *          [{
+ *              "piscologico": false,
+ *              "juridico": true
+ *          }],
+ *      "cidade": "teste",
+ *      "bairro": "teste",
+ *      "estado": "teste"
+ *  }]
+ * 
+ */
+router.post("/", controller.post)
+
+
+
+/**
+ * @api {PUT} router.put("/:id", controller.put),
+ * @apiName PUT Acolhida
+ * @apiGroup Acolhida
+ *
+ *
+ * @apiSuccess {Object[]} Atualiza informações da pessoa que deseja ser acolhida
+ *
+ * @apiSuccessExample Success-Response:
+ *     HTTP/1.1 200 OK
+ *   [{
+ *      "nome": "Teste",
+ *      "sobrenome": "Teste",
+ *      "idade": 32,
+ *      "email": "teste@teste.com",
+ *      "genero": 
+ *          [{
+ *              "mulherCis": true,
+ *              "mulherTrans": false
+ *          }],
+ *       "tipoAjuda": 
+ *          [{
+ *              "piscologico": false,
+ *              "juridico": true
+ *          }],
+ *      "cidade": "teste",
+ *      "bairro": "teste",
+ *      "estado": "teste"
+ *  }]
+ * 
+ */
 router.put("/:id", controller.update)
+
+
 router.delete("/:id", controller.deletarPosto)
 
 module.exports = router
