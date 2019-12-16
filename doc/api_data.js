@@ -4,7 +4,7 @@ define({ "api": [
     "url": "/queroSerAcolhida",
     "title": "",
     "name": "Get_queroSerAcolhida",
-    "group": "AColhida",
+    "group": "Acolhida",
     "success": {
       "fields": {
         "Success 200": [
@@ -27,7 +27,7 @@ define({ "api": [
     },
     "version": "0.0.0",
     "filename": "src/routes/acolhidaRoute.js",
-    "groupTitle": "AColhida"
+    "groupTitle": "Acolhida"
   },
   {
     "type": "POST",
@@ -184,7 +184,7 @@ define({ "api": [
     "url": "/voluntariaAcolhe",
     "title": "",
     "name": "Get_voluntariaAcolhe",
-    "group": "voluntaria",
+    "group": "Voluntaria",
     "success": {
       "fields": {
         "Success 200": [
@@ -207,14 +207,14 @@ define({ "api": [
     },
     "version": "0.0.0",
     "filename": "src/routes/voluntariaRoute.js",
-    "groupTitle": "voluntaria"
+    "groupTitle": "Voluntaria"
   },
   {
     "type": "POST",
     "url": "/voluntariaAcolhe",
     "title": "",
     "name": "POST_voluntariaAcolhe",
-    "group": "voluntaria",
+    "group": "Voluntaria",
     "success": {
       "fields": {
         "Success 200": [
@@ -237,14 +237,14 @@ define({ "api": [
     },
     "version": "0.0.0",
     "filename": "src/routes/voluntariaRoute.js",
-    "groupTitle": "voluntaria"
+    "groupTitle": "Voluntaria"
   },
   {
     "type": "PUT",
     "url": "/voluntariaAcolhe/:id",
     "title": "",
     "name": "PUT_voluntariaAcolhe",
-    "group": "voluntaria",
+    "group": "Voluntaria",
     "success": {
       "fields": {
         "Success 200": [
@@ -267,6 +267,6 @@ define({ "api": [
     },
     "version": "0.0.0",
     "filename": "src/routes/voluntariaRoute.js",
-    "groupTitle": "voluntaria"
+    "groupTitle": "Voluntaria"
   }
 ] });
