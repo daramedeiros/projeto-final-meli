@@ -28,7 +28,7 @@ exports.getById = (req, res) => {
     if (err) return res.status(500).send(err);
 
     if (!posto) {
-      return res.status(200).send({ message: `Infelizmente não localizamos o posto pelo id: ${postoId}` });
+      return res.status(404).send({ message: `Infelizmente não localizamos o posto pelo id: ${postoId}` });
     }
 
     res.status(200).send(posto);
@@ -54,7 +54,7 @@ exports.deletarPosto = (req, res) => {
     if (err) return res.status(500).send(err);
 
     if (!posto) {
-      return res.status(200).send({ message: `Infelizmente não localizamos o posto de id: ${req.params.id}` });
+      return res.status(404).send({ message: `Infelizmente não localizamos o posto de id: ${req.params.id}` });
     }
 
     posto.remove(function (err) {

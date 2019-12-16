@@ -28,7 +28,7 @@ exports.post = (req, res) => {
       if (err) return res.status(500).send(err);
   
       if (!acolhida) {
-        return res.status(200).send({ message: `Infelizmente não localizamos a pessoa acolhida pelo id: ${acolhidaId}` });
+        return res.status(404).send({ message: `Infelizmente não localizamos a pessoa acolhida pelo id: ${acolhidaId}` });
       }
   
       res.status(200).send(acolhida);
@@ -54,7 +54,7 @@ exports.post = (req, res) => {
       if (err) return res.status(500).send(err);
   
       if (!acolhida) {
-        return res.status(200).send({ message: `Infelizmente não localizamos a pessoa acolhida pelo id: ${req.params.id}` });
+        return res.status(404).send({ message: `Infelizmente não localizamos a pessoa acolhida pelo id: ${req.params.id}` });
       }
   
       acolhida.remove(function (err) {

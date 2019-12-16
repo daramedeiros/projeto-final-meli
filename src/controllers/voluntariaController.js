@@ -27,7 +27,7 @@ exports.getById = (req, res) => {
     if (err) return res.status(500).send(err);
 
     if (!voluntaria) {
-      return res.status(200).send({ message: `Infelizmente não localizamos a voluntaria pelo id: ${voluntariaId}` });
+      return res.status(404).send({ message: `Infelizmente não localizamos a voluntaria pelo id: ${voluntariaId}` });
     }
 
     res.status(200).send(voluntaria);
@@ -53,7 +53,7 @@ exports.deletarVoluntaria = (req, res) => {
     if (err) return res.status(500).send(err);
 
     if (!voluntaria) {
-      return res.status(200).send({ message: `Infelizmente não localizamos a voluntaria pelo id: ${req.params.id}` });
+      return res.status(404).send({ message: `Infelizmente não localizamos a voluntaria pelo id: ${req.params.id}` });
     }
 
     voluntaria.remove(function (err) {
