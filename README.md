@@ -1,15 +1,15 @@
 ## projeto-final-meli
 Projeto: AcolherAsManas<br/>
 
-### Porque isso é importante?
+### Por que isso é importante?
 
-- Pelo fim da cultura do estupro!
+- Pelo fim da cultura do estupro!<br/>
 A cada 11 minutos, uma mulher é estuprada do Brasil¹ e 85% têm medo de ser vítimoa de violência sexual². Essa luta é urgente e é de todoas nós. Precisamos romper este ciclo!
 
-- A violência acontece dentro de casa. 
+- A violência acontece dentro de casa. <br/>
 3 em cada 5 mulheres já sofreram alguma violência dentro do relacionamento³. Nos casos de estupro em que o autor é conhecido, 78,6% acontecem no local de residência³.
 
-- NOSSA VOZ SEŔA OUVIDA!
+- NOSSA VOZ SEŔA OUVIDA!<br/>
 Entre 2012 e 2016, houve um aumento de 155% nas notificações dos casos de violência⁴. Apesar do fortalecimento da lutas das mulheres, a maior parte dos casos ainda não são registrados.
 
 ## Objetivo da API
