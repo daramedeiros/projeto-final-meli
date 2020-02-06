@@ -45,67 +45,76 @@ https://acolhe-as-manas.herokuapp.com/
 
 #### Rotas/EndPoints
 **GET /postosDeSevicosDeAtendimento** <br/>
-Rota que retorna uma lista com todos os postos de serviços de atendimentos cadastrados. <br/>
+> Rota que retorna uma lista com todos os postos de serviços de atendimentos cadastrados. <br/>
 HTTP 200 OK
 
 
 **GET/postosDeSevicosDeAtendimento/:id** <br/>
-Rota que retorna os detalhes sobre algum posto de serviço, baseado no seu id. <br/>
+> Rota que retorna os detalhes sobre algum posto de serviço, baseado no seu id. <br/>
 HTTP 200 OK
 
 
 **GET/voluntarioAcolhe** <br/>
-Rota que retorna uma lista com todas as profissionais (terapeutas e advogadas) cadastradas para prestar seu serviço voluntariamente. <br/>
+> Rota que retorna uma lista com todas as profissionais (terapeutas e advogadas) cadastradas para prestar seu serviço voluntariamente. <br/>
 HTTP 200 OK
 
 
 **GET/voluntarioAcolhe/:id** <br/>
-Rota que retorna os detalhes sobre cada profissional cadastrada, com base no seu id. <br/>
+> Rota que retorna os detalhes sobre cada profissional cadastrada, com base no seu id. <br/>
 HTTP 200 OK
+
 
 **GET/queroSerAcolhida** <br/>
-Rota que retorna uma lista com todas as vítimas cadastradas que desejam uns dos serviços prestados.<br/>
+> Rota que retorna uma lista com todas as vítimas cadastradas que desejam uns dos serviços prestados.<br/>
 HTTP 200 OK
+
 
 **GET/queroSerAcolhida/:id**  <br/>
-Rota que retorna os detalhes sobre cada vítima cadastrada, com base no seu id. <br/>
+> Rota que retorna os detalhes sobre cada vítima cadastrada, com base no seu id. <br/>
 HTTP 200 OK
 
+
 **POST /postosDeSevicosDeAtendimento**  <br/>
-Rota que recebe e adiciona um novo posto de serviço de atendimento, retorna o item criado. <br/>
+> Rota que recebe e adiciona um novo posto de serviço de atendimento, retorna o item criado. <br/>
 HTTP 201 CREATED
 
 
 **POST /queroSerAcolhida**  <br/>
-Rota que recebe e adiciona uma nova mulher que deseja ser acolhida no projeto. Como resultado, retorna o item criado. <br/>
+> Rota que recebe e adiciona uma nova mulher que deseja ser acolhida no projeto. Como resultado, retorna o item criado. <br/>
 HTTP 201 CREATED
+
 
 **POST /voluntarioAcolhe**  <br/>
-Rota que recebe e adiciona um novo profissional. Como resultado, retorna o item criado.  <br/>
+> Rota que recebe e adiciona um novo profissional. Como resultado, retorna o item criado.  <br/>
 HTTP 201 CREATED
 
+
 **PUT /postosDeSevicosDeAtendimento/:id**  <br/>
-Rota que atualiza as informações de um certo posto de serviço por id e retorna o item atualizado.  <br/>
+> Rota que atualiza as informações de um certo posto de serviço por id e retorna o item atualizado.  <br/>
 HTTP 200 OK
 
 **PUT /voluntarioAcolhe/:id** <br/>
-Rota que atualiza as informações de um profissional por id e retorna o item atualizado.  <br/>
+> Rota que atualiza as informações de um profissional por id e retorna o item atualizado.  <br/>
 HTTP 200 OK
+
 
 **PUT /queroSerAcolhida/:id**  <br/>
-Rota que atualiza as informações de uma vítima por id e retorna o item atualizado.  <br/>
+> Rota que atualiza as informações de uma vítima por id e retorna o item atualizado.  <br/>
 HTTP 200 OK
 
+
 **DELETE /postosDeSevicosDeAtendimento/:id**  <br/>
-Rota que deleta um posto de serviço baseado em seu id.  <br/>
+> Rota que deleta um posto de serviço baseado em seu id.  <br/>
 HTTP 204 NO CONTENT
+
 
 **DELETE /voluntarioAcolhe/:id**  <br/>
-Rota que deleta um profissional baseado em seu id.  <br/>
+> Rota que deleta um profissional baseado em seu id.  <br/>
 HTTP 204 NO CONTENT
 
+
 **DELETE /queroSerAcolhida/:id**  <br/>
-Rota que deleta uma vítima cadastrada baseado em seu id.  <br/>
+> Rota que deleta uma vítima cadastrada baseado em seu id.  <br/>
 HTTP 204 NO CONTENT
 
 
