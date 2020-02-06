@@ -18,7 +18,7 @@ Entre 2012 e 2016, houve um aumento de 155% nas notificações dos casos de viol
 Está aplicação é uma API que busca conectar  mulheres que sofrem ou sofreram violência de gênero a uma rede de apoio (terapeutas e advogadas) dispostas a ajudá-las de forma voluntária.
 
 
-#### Linguagenss
+#### Linguagens
 - Javascript
 - NodeJS
 
