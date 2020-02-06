@@ -58,7 +58,7 @@ exports.deletarVoluntaria = (req, res) => {
 
     voluntaria.remove(function (err) {
       if (!err) {
-        res.status(200).send({ message: 'Voluntaria removida com sucesso...' });
+        res.status(204).send({ message: 'Voluntaria removida com sucesso...' });
       }
     })
   })

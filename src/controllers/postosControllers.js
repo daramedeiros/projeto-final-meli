@@ -59,7 +59,7 @@ exports.deletarPosto = (req, res) => {
 
     posto.remove(function (err) {
       if (!err) {
-        res.status(200).send({ message: 'Posto de serviço removido com sucesso...' });
+        res.status(204).send({ message: 'Posto de serviço removido com sucesso...' });
       }
     })
   })

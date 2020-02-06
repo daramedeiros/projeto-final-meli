@@ -59,7 +59,7 @@ exports.post = (req, res) => {
   
       acolhida.remove(function (err) {
         if (!err) {
-          res.status(200).send({ message: 'Pessoa acolhida removida com sucesso...' });
+          res.status(204).send({ message: 'Pessoa acolhida removida com sucesso...' });
         }
       })
     })
